@@ -1,3 +1,5 @@
+#ifndef GLOBAL_H
+#define GLOBAL_H
 #define IS_PLUGIN 1
 #define USE_SOCKET 1
 
@@ -24,4 +26,8 @@
 #include "func.h"
 #include "sharedfunc.h"
 #include "ns/ns.h"
+#include "2d.h"
+#include "ui.h"
+#include "ns/ns.h"
 #include <sys/socket.h>
+#endif

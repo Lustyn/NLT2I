@@ -1,3 +1,5 @@
+#ifndef NS_H
+#define NS_H
 #define NS_DEFAULT_MEM_REGION 0x300
 
 #define DEBUG_BUFFER_SIZE 0x4000
@@ -77,6 +79,6 @@ u32 rtGenerateJumpCode(u32 dst, u32* buf);
 
 u32 nsAttachProcess(Handle hProcess, u32 remotePC, NS_CONFIG *cfg) ;
 
-
+#endif
 
 
